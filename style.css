@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+/* Header */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/header-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 3px solid grey;
+}
+Navbar/ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.nav-logo {
+  width: 150px;
+  height: 40px;
+}
+.logo {
+  background-image: url(/images/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Buttons */
+.lang-btn {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  padding: 7px 30px;
+  outline: none;
+  border: 0.5px solid white;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sign-btn {
+  color: white;
+  text-align: center;
+  background-color: #db0001;
+  padding: 7px 15px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.lang-btn img {
+  width: 10px;
+  margin-left: 10px;
+}
+.content {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.content h1 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 50px;
+  max-width: 600px;
+}
+
+.content h3 {
+  font-weight: 500;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.sign-up button {
+  color: white;
+  border: none;
+  outline: none;
+  background-color: #db0001;
+  text-align: center;
+  padding: 13px 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.sign-up input {
+  color: white;
+  background-color: white;
+  border: 0.5px solid black;
+  outline: none;
+  padding: 13px 100px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Sections */
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 3px solid grey;
+  width: 100%;
+  height: 75vh;
+}
+.feature-text {
+  width: 500px;
+  color: white;
+  padding: 0 7px;
+}
+
+.image-box {
+  width: 500px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.feature-text h1,
+h2,
+h4,
+h5,
+h6 {
+  font-size: 2rem;
+}
+
+.faqs {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  border-bottom: 3px solid grey;
+}
+
+.faqs h1 {
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+.questions li {
+  background-color: #ffffff1a;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions li:hover {
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+
+.questions {
+  max-width: 50%;
+  margin: 30px auto;
+  list-style-type: none;
+}
+/* Footer */
+footer {
+  color: #ffffffb3;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+  margin: 35px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+a {
+  color: #ffffffb3;
+}
+
+form {
+  margin: auto;
+}
+
+.f-btn {
+  margin-top: 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* End */
